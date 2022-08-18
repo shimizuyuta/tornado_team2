@@ -20,7 +20,16 @@ module.exports = {
       'star3': '#F3BEC7',
       'star2': '#E7D1D5',
       'star1': '#E0E0E0',
-      'fontMain': '#FFF'
+      'display_star': '#F04564',
+      'no_display_star': '#E0E0E0',
+      'fontMain': '#FFF',
+      'label_bg': '#EFEDED',
+      'label_font': '#535353',
+      'black_text': '#353535',
+      'border_button': '#F04564',
+      'bg_main': '#F6F6F6',
+      'divide_line': '#E0E0E0'
+
     },
     fontFamily: {
       // display: ['Gilroy', 'sans-serif'],

@@ -35,5 +35,5 @@ a {
 }
 
 .cancel-btn {
-
+  @apply  bg-fontMain text-black_text rounded-full border border-border_button
 }

@@ -1,14 +1,11 @@
 import type { NextPage } from 'next'
-import texts from '../texts/Home.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome" ;
 import { faGlasses } from "@fortawesome/free-solid-svg-icons/faGlasses" 
-// import { IconDefinition,library } from '@fortawesome/free-solid-svg-icons';
 import { library, IconDefinition } from "@fortawesome/fontawesome-svg-core";
 library.add(faGlasses as IconDefinition)
 import Button from '../components/Button'
 import React from 'react';
 
-const Home = () => {
+const Home:NextPage = () => {
   return (
     <div className=''>
       <p>暫定的にコンポネントをおいてあるだけ</p>

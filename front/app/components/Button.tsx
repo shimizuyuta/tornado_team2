@@ -3,13 +3,12 @@ import React , { ButtonHTMLAttributes, FC, ReactNode } from 'react';
 // type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
 //   children: React.ReactNode;
 // };
-type Props = {
+type ButtonProps = {
   text: string,
   style: string,
 }
 
-const Button = ({ text,style }: Props) => {
-  console.log(text)
+const Button = ({ text,style }: ButtonProps) => {
   return (
     <button
       className={`${style}`}

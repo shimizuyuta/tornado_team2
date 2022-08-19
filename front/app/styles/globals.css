@@ -29,14 +29,4 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
 
-.approve-btn {
-  @apply  bg-main text-fontMain rounded-full
-}
-
-.cancel-btn {
-  @apply  bg-fontMain text-black_text rounded-full border border-border_button
-}
-=======
->>>>>>> ec582510bab84fc25c81268e018d423022b72e7c

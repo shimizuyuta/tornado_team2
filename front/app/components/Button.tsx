@@ -5,13 +5,13 @@ import React , { ButtonHTMLAttributes, FC, ReactNode } from 'react';
 // };
 type ButtonProps = {
   text: string,
-  style: string,
+  size?: 'small' | 'large',
 }
 
-const Button = ({ text,style }: ButtonProps) => {
+const Button = ({ text, size }: ButtonProps) => {
   return (
     <button
-      className={`${style}`}
+      className={'bg-main text-fontMain rounded-full px-8 py-2'}
     >
       {text}
     </button>

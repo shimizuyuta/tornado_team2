@@ -1,8 +1,5 @@
 import React , { ButtonHTMLAttributes, FC, ReactNode } from 'react';
 
-// type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
-//   children: React.ReactNode;
-// };
 type ButtonProps = {
   text: string,
   size?: 'small' | 'large',

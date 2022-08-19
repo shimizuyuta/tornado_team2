@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode:false,
+  darkMode: false,
   content: [],
   theme: {
     screens: {
@@ -9,18 +9,18 @@ module.exports = {
       // phone: {'min': '360px','max':'450'},
       // tablet: '640px',
       // laptop: '1024px',
-      desktop: '1280px'
+      desktop: '1280px',
     },
     colors: {
-      'main': '#F04564',
-      'sub1': '#FFF5E2',
-      'sub2': '#FF859B',
-      'star5': '#F04564',
-      'star4': '#F07C91',
-      'star3': '#F3BEC7',
-      'star2': '#E7D1D5',
-      'star1': '#E0E0E0',
-      'fontMain': '#FFF'
+      main: '#F04564',
+      sub1: '#FFF5E2',
+      sub2: '#FF859B',
+      star5: '#F04564',
+      star4: '#F07C91',
+      star3: '#F3BEC7',
+      star2: '#E7D1D5',
+      star1: '#E0E0E0',
+      fontMain: '#FFF',
     },
     fontFamily: {
       // display: ['Gilroy', 'sans-serif'],
@@ -33,9 +33,7 @@ module.exports = {
     //   DEFAULT: '.25rem',
     //   'lg': '.5rem'
     // },
-    extend: {
-
-    },
+    extend: {},
   },
   plugins: [],
 }

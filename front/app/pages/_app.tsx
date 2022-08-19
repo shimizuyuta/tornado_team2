@@ -1,9 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import 'tailwindcss/tailwind.css';
-import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import 'tailwindcss/tailwind.css'
+import React from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />

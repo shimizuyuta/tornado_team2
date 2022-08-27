@@ -30,3 +30,31 @@ a {
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .button-register {
+    @apply bg-main text-fontMain px-6 py-1 rounded 
+  }
+  .button-default {
+    @apply bg-main text-fontMain rounded-full text-base px-8 py-2 
+
+  }
+  .button-cancell {
+    @apply text-fontSub1 bg-sub3 rounded-full border border-fontSub1 px-5 py-1
+  }
+  .button-sendMessage {
+    @apply bg-sub3 text-fontSub2 rounded-full border border-main text-xs px-6 py-2
+  }
+  .button-editProfile {
+    @apply bg-main text-fontMain rounded-full text-xs px-3 py-1 
+  }
+  .button-receiveOffer {
+    @apply bg-main text-fontMain rounded-full  text-xs px-6 py-2
+  }
+  .button-chat {
+    @apply bg-fontMain text-main rounded-full border border-main px-8 py-2
+  }
+  .button-close {
+    @apply bg-sub2 text-fontMain rounded-full px-11 py-2
+  }
+}

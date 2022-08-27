@@ -36,6 +36,8 @@ const Profile = () => {
                 <Input type='text' size='large' placeholder='入力してください' labletext='建物名'></Input>
                 <Input type='text' size='large' placeholder='入力してください' labletext='電話番号'></Input>
             </div>
+            <button type='submit' className='my-2 mx-auto w-48 h-12 bg-cyan-400 rounded-full'>決定する</button>
+            <button type='submit' className='my-2 mx-auto w-36 h-8 text-stone-400 border-solid border-2 rounded-full'>＜　やめる　</button>
         </div>
     )
 }

@@ -15,6 +15,7 @@ module.exports = {
       // display: ['Gilroy', 'sans-serif'],
       // body: ['Graphik', 'sans-serif'],
     },
+    
 
     // borderRadius: {
     //   'none': '0',

@@ -9,11 +9,18 @@ const Home: NextPage = () => {
   return (
     <div className=''>
       <p>暫定的にコンポネントをおいてあるだけ</p>
-      <Button text='決定する' />
-      <Button text='次へ進む' />
+      <Button text='会員登録する' style="button-register"/>
+      <Button text='プロフィールを編集する' style="button-editProfile"/>
+      <Button text='決定する' style="button-default"/>
+      <Button text='オファーを受ける' style="button-receiveOffer"/>
+      <Button text='やめる' style="button-cancell"/>
+      <Button text='メッセージを送る' style="button-sendMessage"/>
+      <Button text='チャットをする' style="button-chat"/>
+      <Button text='とじる' style="button-close"/>
+      {/* <Button text='次へ進む' />
       <Button text='申請する' />
       <Button text='オファーを受ける' />
-      <Button text='プロデュース申請する' />
+      <Button text='プロデュース申請する' /> */}
     </div>
   )
 }

@@ -29,11 +29,3 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.approve-btn {
-  @apply  bg-main text-fontMain rounded-full
-}
-
-.cancel-btn {
-
-}

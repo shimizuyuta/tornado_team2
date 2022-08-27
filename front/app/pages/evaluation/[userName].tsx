@@ -1,11 +1,12 @@
 import { useRouter } from 'next/router'
 import React from 'react'
+import Button from 'components/Button'
 
-type starProps =  {
-    labelText: string
+type starProps = {
+  labelText: string
 }
 
-const Stars = ({labelText}: starProps) => {
+const Stars = ({ labelText }: starProps) => {
   const [cyan_idx, setidx] = React.useState(-1)
   let idxs = [0, 1, 2, 3, 4]
   return (
@@ -42,11 +43,17 @@ const Evaluate = () => {
       <div className='text-2xl m-auto mt-2 mb-0'>{userName + ' '}さんの</div>
       <div className='text-2xl m-auto mt-0 mb-2'>プロデュースはどうでしたか?</div>
       <img src='/Profile.svg' className='w-20 my-4 mx-auto'></img>
-      <Stars labelText='アドバイスの的確さ'></Stars>
-      <Stars labelText='アドバイスのわかりやすさ'></Stars>
-      <Stars labelText='センス'></Stars>
-      <Stars labelText='返信のスピード'></Stars>
 
+      <div className='mx-auto'>
+        <Stars labelText='アドバイスの的確さ'></Stars>
+        <Stars labelText='アドバイスのわかりやすさ'></Stars>
+        <Stars labelText='センス'></Stars>
+        <Stars labelText='返信のスピード'></Stars>
+      </div>
+
+      <div className='my-16 mx-auto'>
+        <Button text='評価する' style='button-default' />
+      </div>
     </div>
   )
 }

@@ -30,11 +30,11 @@ const Profile = () => {
             </div>
             <div className='my-2'>
                 <div className='text-lg m-auto my-4'>基本情報</div>
-                <Input type='text' size='small' placeholder='入力してください' labletext='郵便番号'></Input>
-                <Input type='text' size='large' placeholder='入力してください' labletext='住所'></Input>
-                <Input type='text' size='large' placeholder='入力してください' labletext='番地'></Input>
-                <Input type='text' size='large' placeholder='入力してください' labletext='建物名'></Input>
-                <Input type='text' size='large' placeholder='入力してください' labletext='電話番号'></Input>
+                <Input type='text' size='small' placeholder='郵便番号' labletext='郵便番号'></Input>
+                <Input type='text' size='large' placeholder='住所を入力' labletext='住所'></Input>
+                <Input type='text' size='large' placeholder='番地を入力' labletext='番地'></Input>
+                <Input type='text' size='large' placeholder='建物を入力' labletext='建物名'></Input>
+                <Input type='text' size='large' placeholder='電話番号' labletext='電話番号'></Input>
             </div>
             <button type='submit' className='my-2 mx-auto w-48 h-12 bg-cyan-400 rounded-full'>決定する</button>
             <button type='submit' className='my-2 mx-auto w-36 h-8 text-stone-400 border-solid border-2 rounded-full'>＜　やめる　</button>

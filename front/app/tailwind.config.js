@@ -11,11 +11,11 @@ module.exports = {
       // laptop: '1024px',
       desktop: '1280px',
     },
-
     fontFamily: {
       // display: ['Gilroy', 'sans-serif'],
       // body: ['Graphik', 'sans-serif'],
     },
+    
 
     // borderRadius: {
     //   'none': '0',

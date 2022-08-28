@@ -3,11 +3,13 @@ import { faGlasses } from '@fortawesome/free-solid-svg-icons/faGlasses'
 import { library, IconDefinition } from '@fortawesome/fontawesome-svg-core'
 library.add(faGlasses as IconDefinition)
 import Button from '../components/Button'
+import Header from 'components/Header'
 import React from 'react'
 
 const Home: NextPage = () => {
   return (
     <div className=''>
+      <Header></Header>
       <p>暫定的にコンポネントをおいてあるだけ</p>
       <Button text='会員登録する' style="button-register"/>
       <Button text='プロフィールを編集する' style="button-editProfile"/>

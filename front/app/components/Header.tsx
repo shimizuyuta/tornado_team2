@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className='flex justify-between h-5 w-100 m-4'>
+    <div className='flex justify-between h-5 w-full m-4'>
       <img src='/akanuke_rogo.png' className=''></img>
       <div className='flex justify-end h-5'>
         <button>

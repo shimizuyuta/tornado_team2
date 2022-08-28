@@ -33,7 +33,7 @@ a {
 
 @layer utilities {
   .button-register {
-    @apply bg-main text-fontMain px-6 py-1 rounded 
+    @apply bg-main text-fontMain px-6 py-1 rounded
   }
   .button-default {
     @apply bg-main text-fontMain rounded-full text-base px-8 py-2 

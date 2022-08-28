@@ -37,6 +37,7 @@ module.exports = {
         fontMain: '#FFF',
         fontSub1: '#ADADAD',
         fontSub2: '#000',
+        topPageBg: '#F6FEFF',
       }
     },
   },

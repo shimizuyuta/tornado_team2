@@ -4,16 +4,16 @@ const Header = () => {
       <img src='/akanuke_rogo.png' className=''></img>
       <div className='flex justify-end h-5'>
         <button>
-          <img src='/chat.svg' className='h-5 mx-3'></img>
+          <img src='/chat.svg' className='h-5 mx-2'></img>
         </button>
         <button>
-          <img src='/notify.png' className='h-5 mx-3'></img>
+          <img src='/notify.png' className='h-5 mx-2'></img>
         </button>
         <button>
-          <img src='Profile.svg' className='h-5 mx-3'></img>
+          <img src='Profile.svg' className='h-5 mx-2'></img>
         </button>
         <button>
-          <img src='/menu.png' className='h-4 mx-3'></img>
+          <img src='/menu.png' className='h-4 mx-2'></img>
         </button>
       </div>
     </div>
